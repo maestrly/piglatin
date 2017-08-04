@@ -4,13 +4,14 @@
         <body>
             <h1>Pig Latin Translator!</h1>
             
-            <p>Original:</p>
-            <p>I like cheese</p>
+            <h3>Original:</h3>
+            <p>{{ original }}e</p>
             
-            <p>Translation:</p>
-            <p>iyay ikelay heesecay</p>
-            
-            <p>New Translation</p>
+            <h3>Translation:</h3>
+            <p>{{ translation }}</p>
+            <br>
+            <br>
+            <p><a href="{% url 'home' %}">New Translation</a></p>
             
         </body>
     </head>
